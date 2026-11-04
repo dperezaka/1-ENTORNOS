@@ -1,0 +1,8 @@
+# Dado un diccionario de estudiantes y sus ciudades
+estudiantes = {
+"est001": {"nombre": "Ana", "ciudad": "Madrid"},
+"est002": {"nombre": "Carlos", "ciudad": "Barcelona"},
+"est003": {"nombre": "María", "ciudad": "Madrid"}
+}
+# Crea un diccionario agrupado por ciudad
+# Esperado: {'Madrid': ['Ana', 'María'], 'Barcelona': ['Carlos']}

@@ -1,0 +1,7 @@
+"""
+Crea una lista con los números del 1 al 10, luego:
+Agrega el número 11 al final
+Elimina el número 5
+Ordena la lista en orden descendente
+Muestra la longitud de la lista
+"""

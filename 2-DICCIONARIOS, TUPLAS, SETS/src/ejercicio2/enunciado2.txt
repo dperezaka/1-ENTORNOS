@@ -1,0 +1,10 @@
+calificaciones = {
+"Ana": [8.5, 9.0, 7.5, 8.0],
+"Carlos": [6.0, 7.0, 6.5, 7.5],
+"María": [9.5, 9.0, 9.2, 9.8]
+}
+# Calcula:
+# 1. Promedio de cada estudiante (usa sum() y len())
+# 2. Estudiante con mejor promedio (usa max())
+# 3. Cuántos aprobaron (promedio >= 5)
+# 4. Diccionario con solo aprobados (usa bucle for)

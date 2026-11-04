@@ -1,0 +1,7 @@
+matematicas = {"Ana", "Carlos", "María", "Juan"}
+fisica = {"María", "Juan", "Luis", "Carmen"}
+quimica = {"Ana", "Juan", "Carmen"}
+# Encuentra:
+# 1. Estudiantes en las tres materias (usa & tres veces)
+# 2. Estudiantes solo en Matemáticas (usa -)
+# 3. Estudiantes en al menos dos materias

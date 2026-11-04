@@ -1,0 +1,8 @@
+texto = """
+Python es un lenguaje de programación interpretado cuya filosofía
+hace hincapié en la legibilidad de su código. Python es muy popular.
+Python es poderoso y Python es fácil de aprender.
+"""
+# 1. Cuenta frecuencia de cada palabra (diccionario)
+# 2. Encuentra la palabra más frecuente
+# 3. Muestra las palabras ordenadas alfabéticamente
