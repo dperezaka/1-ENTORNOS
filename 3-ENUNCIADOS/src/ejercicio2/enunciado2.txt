@@ -1,0 +1,1 @@
+Dada la cadena "Python", conviértela a mayúsculas y luego reemplaza "PY" por "PI".

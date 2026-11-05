@@ -1,0 +1,1 @@
+Dada la lista [10, 20, 30, 40], usa slicing para obtener los elementos en posiciones impares (20, 40).

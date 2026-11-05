@@ -1,0 +1,1 @@
+Convierte la tupla (1, 2, 3) en lista, añade el número 4, y vuelve a convertirla en tupla.

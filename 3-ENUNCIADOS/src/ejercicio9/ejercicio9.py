@@ -1,0 +1,12 @@
+"""
+inventario = {
+"PRO001": {"nombre": "Laptop", "precio": 800, "stock": 15},
+"PRO002": {"nombre": "Mouse", "precio": 20, "stock": 50},
+"PRO003": {"nombre": "Teclado", "precio": 45, "stock": 5}
+}
+# Implementa:
+# 1. valor_total_inventario() - suma precio * stock de todos
+# 2. productos_bajo_stock(minimo) - lista productos con stock < minimo
+# 3. producto_mas_caro() - devuelve tupla (codigo, nombre, precio)
+# 4. aplicar_descuento(porcentaje) - reduce todos los precios
+"""

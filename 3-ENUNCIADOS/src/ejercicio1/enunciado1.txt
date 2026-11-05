@@ -1,0 +1,1 @@
+Crea una cadena con tu nombre y apellido. Imprime la primera letra de cada uno usando índices

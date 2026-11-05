@@ -1,0 +1,1 @@
+Usa split() para dividir la cadena "Aprendo Python" en una lista de palabras. Luego, únelas con "-".
