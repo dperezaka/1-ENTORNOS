@@ -1,9 +1,14 @@
 """
-matematicas = {"Ana", "Carlos", "María", "Juan"}
-fisica = {"María", "Juan", "Luis", "Carmen"}
-quimica = {"Ana", "Juan", "Carmen"}
-# Encuentra:
-# 1. Estudiantes en las tres materias (usa & tres veces)
-# 2. Estudiantes solo en Matemáticas (usa -)
-# 3. Estudiantes en al menos dos materias
+Crea una lista con [3, 1, 4]:
+1. Añade el número 5.
+2. Ordena la lista.
 """
+
+lista = [3, 1, 4]
+print(lista)
+
+lista.append(5)
+print(lista)
+
+lista = sorted(lista)
+print(lista)

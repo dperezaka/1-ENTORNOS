@@ -1,12 +1,22 @@
 """
-inventario = {
-"PRO001": {"nombre": "Laptop", "precio": 800, "stock": 15},
-"PRO002": {"nombre": "Mouse", "precio": 20, "stock": 50},
-"PRO003": {"nombre": "Teclado", "precio": 45, "stock": 5}
-}
-# Implementa:
-# 1. valor_total_inventario() - suma precio * stock de todos
-# 2. productos_bajo_stock(minimo) - lista productos con stock < minimo
-# 3. producto_mas_caro() - devuelve tupla (codigo, nombre, precio)
-# 4. aplicar_descuento(porcentaje) - reduce todos los precios
+Crea un diccionario que cuente las letras de la palabra "programación". Usa get() para simplificar el código.
 """
+
+palabra = "programación"
+
+diccionario = {}
+diccionario1 = {}
+## SIN GET
+for letra in palabra:
+    if letra in diccionario:
+        diccionario[letra] += 1
+    else:
+        diccionario[letra] = 1
+
+
+## CON GET
+for letra in palabra:
+    diccionario1[letra] = diccionario1.get(letra, 0) + 1
+    
+print(diccionario)
+print(diccionario1)

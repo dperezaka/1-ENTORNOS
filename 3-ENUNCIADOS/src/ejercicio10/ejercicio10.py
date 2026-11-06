@@ -1,16 +1,16 @@
 """
-correos = [
-"ana@gmail.com",
-"carlos@hotmail.com",
-"maria@gmail.com",
-"juan@yahoo.com",
-"pedro@gmail.com",
-"laura@hotmail.com"
-]
-# Usa bucles y funciones para:
-# 1. Contar cuántos correos hay por dominio (diccionario)
-# Esperado: {'gmail.com': 3, 'hotmail.com': 2, 'yahoo.com': 1}
-# 2. Crear set de dominios únicos
-# 3. Encontrar el dominio más popular (recorre el diccionario del punto 1)
-# 4. Lista de usuarios que usan gmail (usa bucle for con filtro if)
+1. Pide al usuario/a 3 números y guárdalos en una lista.
+2. Convierte la lista a tupla.
+3. Calcula la suma de los números y muestra el resultado.
 """
+
+lista_numeros=[]
+for n in range(3):
+    numero = input("Dame un numero:\n>") # FALLARA CON CUALQUIER COSA QUE NO SEA ENTEROS
+    lista_numeros.append(numero)
+print(lista_numeros)
+
+tupla_numeros = tuple(lista_numeros)
+print(tupla_numeros)
+
+print(sum(int(n) for n in tupla_numeros))

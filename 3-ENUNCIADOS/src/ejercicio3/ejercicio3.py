@@ -1,8 +1,13 @@
 """
-def contar_palabras(texto):
-Cuenta cuántas veces aparece cada palabra.
-Devuelve un diccionario {palabra: cantidad}
-texto = "python es genial python es poderoso python es facil"
-resultado = contar_palabras(texto)
-# Esperado: {'python': 3, 'es': 3, 'genial': 1, 'poderoso': 1, 'facil': 1}
+Usa split() para dividir la cadena "Aprendo Python" en una lista de palabras. Luego, únelas con "-".
 """
+
+cadena = "Aprendo Python"
+print(cadena)
+
+lista = []
+lista = cadena.split(" ")
+print(lista)
+
+cadena2 = lista[0]+"-"+lista[1]
+print(cadena2)

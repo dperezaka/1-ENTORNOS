@@ -1,14 +1,15 @@
 """
-Crea una agenda que use diccionarios:
-contactos = {}
-def agregar_contacto(nombre, telefono, email):
-contactos[nombre] = {"telefono": telefono, "email": email}
-def buscar_contacto(nombre):
-return contactos.get(nombre, "No encontrado")
-def mostrar_todos():
-# Implementar
-pass
-# Prueba tu código
-agregar_contacto("Ana", "912345678", "ana@email.com")
-buscar_contacto("Ana")
+1. Almacena en un diccionario los precios de 3 productos (ej: {"pan": 1.5, "leche": 0.8}).
+2. Pide al usuario un producto y muestra su precio o "No encontrado" si no existe.
 """
+
+productos={
+    "ordenador": 600,
+    "impresora": 50,
+    "pantalla": 100
+}
+
+pedido = input("Dame el material que buscas:\n>")
+
+precio = productos.get(pedido, "No encontrado")
+print(precio)

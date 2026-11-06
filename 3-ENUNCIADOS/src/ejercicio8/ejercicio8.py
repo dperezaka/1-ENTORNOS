@@ -1,18 +1,15 @@
 """
-def validar_contraseña(password):
-
-Una contraseña válida debe:
-- Tener al menos 8 caracteres
-- Contener al menos una mayúscula
-- Contener al menos una minúscula
-- Contener al menos un dígito
-Usa bucles for para las validaciones.
-Devuelve (bool, str) con el resultado y mensaje
-
-
-# Pruebas
-print(validar_contraseña("Hola123")) # (True, "Válida")
-print(validar_contraseña("hola123")) # (False, "Falta mayúscula")
-print(validar_contraseña("HOLA123")) # (False, "Falta minúscula")
-print(validar_contraseña("HolaHola")) # (False, "Falta dígito")
+Convierte la tupla (1, 2, 3) en lista, añade el número 4, y vuelve a convertirla en tupla.
 """
+
+tupla1 = (1, 2, 3)
+print(tupla1)
+
+lista = list(tupla1)
+print(lista)
+
+lista.append(4)
+print(lista)
+
+tupla2=tuple(lista)
+print(tupla2)

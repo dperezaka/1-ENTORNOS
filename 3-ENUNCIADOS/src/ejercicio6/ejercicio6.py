@@ -1,10 +1,8 @@
 """
-# Dado un diccionario de estudiantes y sus ciudades
-estudiantes = {
-"est001": {"nombre": "Ana", "ciudad": "Madrid"},
-"est002": {"nombre": "Carlos", "ciudad": "Barcelona"},
-"est003": {"nombre": "María", "ciudad": "Madrid"}
-}
-# Crea un diccionario agrupado por ciudad
-# Esperado: {'Madrid': ['Ana', 'María'], 'Barcelona': ['Carlos']}
+Dada la lista [10, 20, 30, 40], usa slicing para obtener los elementos en posiciones impares (20, 40).
 """
+
+lista = [10, 20, 30, 40]
+
+copia = lista[1:4:2]
+print(copia)
